@@ -1,0 +1,57 @@
+{
+  "backend_name": "ibm_perth",
+  "backend_version": "1.1.43",
+  "date": {
+    "__type__": "datetime",
+    "__value__": "2023-03-06T19:01:01+00:00"
+  },
+  "header": {
+    "backend_name": "ibm_perth",
+    "backend_version": "1.1.43"
+  },
+  "qobj_id": "c2040326-f846-476d-b8be-b648825cd6d4",
+  "job_id": "circuit-runner_cg2rcl2sm4lk6m6t972g_b151_0",
+  "status": "Successful completion",
+  "success": true,
+  "results": [
+    {
+      "shots": 1024,
+      "success": true,
+      "data": {
+        "counts": {
+          "0x0": 477,
+          "0x1": 16,
+          "0x2": 48,
+          "0x3": 483
+        }
+      },
+      "meas_level": 2,
+      "header": {
+        "clbit_labels": [
+          ["c", 0],
+          ["c", 1]
+        ],
+        "creg_sizes": [["c", 2]],
+        "global_phase": 0.7853981633974483,
+        "memory_slots": 2,
+        "metadata": {},
+        "n_qubits": 7,
+        "name": "circuit-97",
+        "qreg_sizes": [["q", 7]],
+        "qubit_labels": [
+          ["q", 0],
+          ["q", 1],
+          ["q", 2],
+          ["q", 3],
+          ["q", 4],
+          ["q", 5],
+          ["q", 6]
+        ]
+      },
+      "status": "done"
+    }
+  ],
+  "execution_id": "3a7db928-bc51-11ed-857a-b02628ea1e00",
+  "time_taken": 3.0009452109225094,
+  "error": null
+}

@@ -1,0 +1,321 @@
+2023-03-06T19:00:11.601013649Z Setting up watches.
+2023-03-06T19:00:11.601013649Z Watches established.
+2023-03-06T19:00:12.970143401Z INFO:     Started server process [7]
+2023-03-06T19:00:12.970197999Z INFO:     Waiting for application startup.
+2023-03-06T19:00:12.970495281Z INFO:     Application startup complete.
+2023-03-06T19:00:12.971829097Z INFO:     Uvicorn running on http://127.0.0.1:8081 (Press CTRL+C to quit)
+2023-03-06T19:00:51.317897681Z INFO:     127.0.0.1:51188 - "POST /run HTTP/1.1" 202 Accepted
+2023-03-06T19:00:51.379273547Z programruntime.runtime_provider - DEBUG QuantumProgramProvider initialization completed. Program ID=circuit-runner, execution ID=cg2rcl2sm4lk6m6t972g, hub=ibm-q, group=open, project=main, Session ID=None.
+2023-03-06T19:00:51.379273547Z programruntime.program_starter_wrapper - INFO Executing program.py (job cg2rcl2sm4lk6m6t972g)
+2023-03-06T19:00:51.430293867Z stevedore._cache - DEBUG reading /opt/app-root/src/.cache/python-entrypoints/07d5d23b6ba2a0b19a8b9272572d1e8607d4629cc235eaf3960ae275ed39a651
+2023-03-06T19:00:51.465900730Z stevedore._cache - DEBUG writing to /opt/app-root/src/.cache/python-entrypoints/07d5d23b6ba2a0b19a8b9272572d1e8607d4629cc235eaf3960ae275ed39a651
+2023-03-06T19:00:51.466175819Z stevedore.extension - DEBUG found extension EntryPoint(name='basic', value='qiskit.transpiler.preset_passmanagers.builtin_plugins:BasicSwapPassManager', group='qiskit.transpiler.routing')
+2023-03-06T19:00:51.466801855Z stevedore.extension - DEBUG found extension EntryPoint(name='lookahead', value='qiskit.transpiler.preset_passmanagers.builtin_plugins:LookaheadSwapPassManager', group='qiskit.transpiler.routing')
+2023-03-06T19:00:51.466870418Z stevedore.extension - DEBUG found extension EntryPoint(name='none', value='qiskit.transpiler.preset_passmanagers.builtin_plugins:NoneRoutingPassManager', group='qiskit.transpiler.routing')
+2023-03-06T19:00:51.466912713Z stevedore.extension - DEBUG found extension EntryPoint(name='sabre', value='qiskit.transpiler.preset_passmanagers.builtin_plugins:SabreSwapPassManager', group='qiskit.transpiler.routing')
+2023-03-06T19:00:51.466949362Z stevedore.extension - DEBUG found extension EntryPoint(name='stochastic', value='qiskit.transpiler.preset_passmanagers.builtin_plugins:StochasticSwapPassManager', group='qiskit.transpiler.routing')
+2023-03-06T19:00:51.486573042Z qiskit.transpiler.runningpassmanager - INFO Pass: ContainsInstruction - 0.02885 (ms)
+2023-03-06T19:00:51.486826404Z qiskit.transpiler.runningpassmanager - INFO Pass: UnitarySynthesis - 0.13733 (ms)
+2023-03-06T19:00:51.486985558Z stevedore.extension - DEBUG found extension EntryPoint(name='clifford.default', value='qiskit.transpiler.passes.synthesis.high_level_synthesis:DefaultSynthesisClifford', group='qiskit.synthesis')
+2023-03-06T19:00:51.487163290Z stevedore.extension - DEBUG found extension EntryPoint(name='linear_function.default', value='qiskit.transpiler.passes.synthesis.high_level_synthesis:DefaultSynthesisLinearFunction', group='qiskit.synthesis')
+2023-03-06T19:00:51.487260497Z stevedore.extension - DEBUG found extension EntryPoint(name='permutation.acg', value='qiskit.transpiler.passes.synthesis.high_level_synthesis:ACGSynthesisPermutation', group='qiskit.synthesis')
+2023-03-06T19:00:51.487331386Z stevedore.extension - DEBUG found extension EntryPoint(name='permutation.basic', value='qiskit.transpiler.passes.synthesis.high_level_synthesis:BasicSynthesisPermutation', group='qiskit.synthesis')
+2023-03-06T19:00:51.487392882Z stevedore.extension - DEBUG found extension EntryPoint(name='permutation.default', value='qiskit.transpiler.passes.synthesis.high_level_synthesis:BasicSynthesisPermutation', group='qiskit.synthesis')
+2023-03-06T19:00:51.487448199Z stevedore.extension - DEBUG found extension EntryPoint(name='permutation.kms', value='qiskit.transpiler.passes.synthesis.high_level_synthesis:KMSSynthesisPermutation', group='qiskit.synthesis')
+2023-03-06T19:00:51.487563695Z qiskit.transpiler.runningpassmanager - INFO Pass: HighLevelSynthesis - 0.66066 (ms)
+2023-03-06T19:00:51.487651060Z qiskit.transpiler.runningpassmanager - INFO Pass: Unroll3qOrMore - 0.01717 (ms)
+2023-03-06T19:00:51.487710408Z qiskit.transpiler.runningpassmanager - INFO Pass: SetLayout - 0.01049 (ms)
+2023-03-06T19:00:51.487857972Z qiskit.transpiler.runningpassmanager - INFO Pass: TrivialLayout - 0.07868 (ms)
+2023-03-06T19:00:51.488042858Z qiskit.transpiler.runningpassmanager - INFO Pass: CheckMap - 0.11897 (ms)
+2023-03-06T19:00:51.488293097Z qiskit.transpiler.runningpassmanager - INFO Pass: FullAncillaAllocation - 0.16165 (ms)
+2023-03-06T19:00:51.488467795Z qiskit.transpiler.runningpassmanager - INFO Pass: EnlargeWithAncilla - 0.11635 (ms)
+2023-03-06T19:00:51.488898976Z qiskit.transpiler.runningpassmanager - INFO Pass: ApplyLayout - 0.34809 (ms)
+2023-03-06T19:00:51.488981066Z qiskit.transpiler.runningpassmanager - INFO Pass: ContainsInstruction - 0.01216 (ms)
+2023-03-06T19:00:51.489116847Z qiskit.transpiler.runningpassmanager - INFO Pass: CheckMap - 0.04601 (ms)
+2023-03-06T19:00:51.489305878Z qiskit.transpiler.runningpassmanager - INFO Pass: UnitarySynthesis - 0.10443 (ms)
+2023-03-06T19:00:51.489369087Z stevedore.extension - DEBUG found extension EntryPoint(name='clifford.default', value='qiskit.transpiler.passes.synthesis.high_level_synthesis:DefaultSynthesisClifford', group='qiskit.synthesis')
+2023-03-06T19:00:51.489454371Z stevedore.extension - DEBUG found extension EntryPoint(name='linear_function.default', value='qiskit.transpiler.passes.synthesis.high_level_synthesis:DefaultSynthesisLinearFunction', group='qiskit.synthesis')
+2023-03-06T19:00:51.489522079Z stevedore.extension - DEBUG found extension EntryPoint(name='permutation.acg', value='qiskit.transpiler.passes.synthesis.high_level_synthesis:ACGSynthesisPermutation', group='qiskit.synthesis')
+2023-03-06T19:00:51.489581790Z stevedore.extension - DEBUG found extension EntryPoint(name='permutation.basic', value='qiskit.transpiler.passes.synthesis.high_level_synthesis:BasicSynthesisPermutation', group='qiskit.synthesis')
+2023-03-06T19:00:51.489646953Z stevedore.extension - DEBUG found extension EntryPoint(name='permutation.default', value='qiskit.transpiler.passes.synthesis.high_level_synthesis:BasicSynthesisPermutation', group='qiskit.synthesis')
+2023-03-06T19:00:51.489704921Z stevedore.extension - DEBUG found extension EntryPoint(name='permutation.kms', value='qiskit.transpiler.passes.synthesis.high_level_synthesis:KMSSynthesisPermutation', group='qiskit.synthesis')
+2023-03-06T19:00:51.489800696Z qiskit.transpiler.runningpassmanager - INFO Pass: HighLevelSynthesis - 0.44203 (ms)
+2023-03-06T19:00:51.490108059Z qiskit.transpiler.runningpassmanager - INFO Pass: UnrollCustomDefinitions - 0.23460 (ms)
+2023-03-06T19:00:51.490288507Z qiskit.transpiler.passes.basis.basis_translator - INFO Begin BasisTranslator from source basis {('cx', 2), ('measure', 1), ('h', 1)} to target basis {'x', 'measure', 'snapshot', 'cx', 'sx', 'barrier', 'delay', 'id', 'rz', 'reset'}.
+2023-03-06T19:00:51.490339551Z qiskit.transpiler.passes.basis.basis_translator - DEBUG Begining basis search from {('cx', 2), ('measure', 1), ('h', 1)} to {'x', 'measure', 'snapshot', 'cx', 'sx', 'barrier', 'delay', 'id', 'rz', 'reset'}.
+2023-03-06T19:00:51.922242778Z qiskit.transpiler.passes.basis.basis_translator - DEBUG Gate u1 generated using rule 
+2023-03-06T19:00:51.922242778Z global phase: theta/2
+2023-03-06T19:00:51.922242778Z    ┌───────────┐
+2023-03-06T19:00:51.922242778Z q: ┤ Rz(theta) ├
+2023-03-06T19:00:51.922242778Z    └───────────┘
+2023-03-06T19:00:51.922242778Z  with total cost of 1.0.
+2023-03-06T19:00:51.923144716Z qiskit.transpiler.passes.basis.basis_translator - DEBUG Gate z generated using rule 
+2023-03-06T19:00:51.923144716Z    ┌───────┐
+2023-03-06T19:00:51.923144716Z q: ┤ U1(π) ├
+2023-03-06T19:00:51.923144716Z    └───────┘
+2023-03-06T19:00:51.923144716Z  with total cost of 1.0.
+2023-03-06T19:00:51.923497349Z qiskit.transpiler.passes.basis.basis_translator - DEBUG Gate s generated using rule 
+2023-03-06T19:00:51.923497349Z    ┌─────────┐
+2023-03-06T19:00:51.923497349Z q: ┤ U1(π/2) ├
+2023-03-06T19:00:51.923497349Z    └─────────┘
+2023-03-06T19:00:51.923497349Z  with total cost of 1.0.
+2023-03-06T19:00:51.923927762Z qiskit.transpiler.passes.basis.basis_translator - DEBUG Gate p generated using rule 
+2023-03-06T19:00:51.923927762Z    ┌───────────┐
+2023-03-06T19:00:51.923927762Z q: ┤ U1(theta) ├
+2023-03-06T19:00:51.923927762Z    └───────────┘
+2023-03-06T19:00:51.923927762Z  with total cost of 1.0.
+2023-03-06T19:00:51.924251992Z qiskit.transpiler.passes.basis.basis_translator - DEBUG Gate tdg generated using rule 
+2023-03-06T19:00:51.924251992Z    ┌──────────┐
+2023-03-06T19:00:51.924251992Z q: ┤ U1(-π/4) ├
+2023-03-06T19:00:51.924251992Z    └──────────┘
+2023-03-06T19:00:51.924251992Z  with total cost of 1.0.
+2023-03-06T19:00:51.924560760Z qiskit.transpiler.passes.basis.basis_translator - DEBUG Gate t generated using rule 
+2023-03-06T19:00:51.924560760Z    ┌─────────┐
+2023-03-06T19:00:51.924560760Z q: ┤ U1(π/4) ├
+2023-03-06T19:00:51.924560760Z    └─────────┘
+2023-03-06T19:00:51.924560760Z  with total cost of 1.0.
+2023-03-06T19:00:51.924843657Z qiskit.transpiler.passes.basis.basis_translator - DEBUG Gate sdg generated using rule 
+2023-03-06T19:00:51.924843657Z    ┌──────────┐
+2023-03-06T19:00:51.924843657Z q: ┤ U1(-π/2) ├
+2023-03-06T19:00:51.924843657Z    └──────────┘
+2023-03-06T19:00:51.924843657Z  with total cost of 1.0.
+2023-03-06T19:00:51.925459017Z qiskit.transpiler.passes.basis.basis_translator - DEBUG Gate dcx generated using rule 
+2023-03-06T19:00:51.925459017Z           ┌───┐
+2023-03-06T19:00:51.925459017Z q_0: ──■──┤ X ├
+2023-03-06T19:00:51.925459017Z      ┌─┴─┐└─┬─┘
+2023-03-06T19:00:51.925459017Z q_1: ┤ X ├──■──
+2023-03-06T19:00:51.925459017Z      └───┘     
+2023-03-06T19:00:51.925459017Z  with total cost of 2.0.
+2023-03-06T19:00:51.958281223Z qiskit.transpiler.passes.basis.basis_translator - DEBUG Gate u2 generated using rule 
+2023-03-06T19:00:51.958281223Z global phase: 7π/4
+2023-03-06T19:00:51.958281223Z    ┌───────────────┐┌────┐┌───────────────┐
+2023-03-06T19:00:51.958281223Z q: ┤ U1(lam - π/2) ├┤ √X ├┤ U1(phi + π/2) ├
+2023-03-06T19:00:51.958281223Z    └───────────────┘└────┘└───────────────┘
+2023-03-06T19:00:51.958281223Z  with total cost of 3.0.
+2023-03-06T19:00:51.959536125Z qiskit.transpiler.passes.basis.basis_translator - DEBUG Gate rzz generated using rule 
+2023-03-06T19:00:51.959536125Z                             
+2023-03-06T19:00:51.959536125Z q_0: ──■─────────────────■──
+2023-03-06T19:00:51.959536125Z      ┌─┴─┐┌───────────┐┌─┴─┐
+2023-03-06T19:00:51.959536125Z q_1: ┤ X ├┤ Rz(theta) ├┤ X ├
+2023-03-06T19:00:51.959536125Z      └───┘└───────────┘└───┘
+2023-03-06T19:00:51.959536125Z  with total cost of 3.0.
+2023-03-06T19:00:51.960273575Z qiskit.transpiler.passes.basis.basis_translator - DEBUG Gate cy generated using rule 
+2023-03-06T19:00:51.960273575Z                       
+2023-03-06T19:00:51.960273575Z q_0: ─────────■───────
+2023-03-06T19:00:51.960273575Z      ┌─────┐┌─┴─┐┌───┐
+2023-03-06T19:00:51.960273575Z q_1: ┤ Sdg ├┤ X ├┤ S ├
+2023-03-06T19:00:51.960273575Z      └─────┘└───┘└───┘
+2023-03-06T19:00:51.960273575Z  with total cost of 3.0.
+2023-03-06T19:00:51.960997759Z qiskit.transpiler.passes.basis.basis_translator - DEBUG Gate swap generated using rule 
+2023-03-06T19:00:51.960997759Z           ┌───┐     
+2023-03-06T19:00:51.960997759Z q_0: ──■──┤ X ├──■──
+2023-03-06T19:00:51.960997759Z      ┌─┴─┐└─┬─┘┌─┴─┐
+2023-03-06T19:00:51.960997759Z q_1: ┤ X ├──■──┤ X ├
+2023-03-06T19:00:51.960997759Z      └───┘     └───┘
+2023-03-06T19:00:51.960997759Z  with total cost of 3.0.
+2023-03-06T19:00:51.961343581Z qiskit.transpiler.passes.basis.basis_translator - DEBUG Gate h generated using rule 
+2023-03-06T19:00:51.961343581Z    ┌─────────┐
+2023-03-06T19:00:51.961343581Z q: ┤ U2(0,π) ├
+2023-03-06T19:00:51.961343581Z    └─────────┘
+2023-03-06T19:00:51.961343581Z  with total cost of 3.0.
+2023-03-06T19:00:51.961400008Z qiskit.transpiler.passes.basis.basis_translator - DEBUG Transformation path:
+2023-03-06T19:00:51.961695356Z qiskit.transpiler.passes.basis.basis_translator - DEBUG h/1 => []
+2023-03-06T19:00:51.961695356Z    ┌─────────┐
+2023-03-06T19:00:51.961695356Z q: ┤ U2(0,π) ├
+2023-03-06T19:00:51.961695356Z    └─────────┘
+2023-03-06T19:00:51.962335704Z qiskit.transpiler.passes.basis.basis_translator - DEBUG swap/2 => []
+2023-03-06T19:00:51.962335704Z           ┌───┐     
+2023-03-06T19:00:51.962335704Z q_0: ──■──┤ X ├──■──
+2023-03-06T19:00:51.962335704Z      ┌─┴─┐└─┬─┘┌─┴─┐
+2023-03-06T19:00:51.962335704Z q_1: ┤ X ├──■──┤ X ├
+2023-03-06T19:00:51.962335704Z      └───┘     └───┘
+2023-03-06T19:00:51.962942956Z qiskit.transpiler.passes.basis.basis_translator - DEBUG cy/2 => []
+2023-03-06T19:00:51.962942956Z                       
+2023-03-06T19:00:51.962942956Z q_0: ─────────■───────
+2023-03-06T19:00:51.962942956Z      ┌─────┐┌─┴─┐┌───┐
+2023-03-06T19:00:51.962942956Z q_1: ┤ Sdg ├┤ X ├┤ S ├
+2023-03-06T19:00:51.962942956Z      └─────┘└───┘└───┘
+2023-03-06T19:00:51.963606513Z qiskit.transpiler.passes.basis.basis_translator - DEBUG rzz/2 => [Parameter(theta)]
+2023-03-06T19:00:51.963606513Z                             
+2023-03-06T19:00:51.963606513Z q_0: ──■─────────────────■──
+2023-03-06T19:00:51.963606513Z      ┌─┴─┐┌───────────┐┌─┴─┐
+2023-03-06T19:00:51.963606513Z q_1: ┤ X ├┤ Rz(theta) ├┤ X ├
+2023-03-06T19:00:51.963606513Z      └───┘└───────────┘└───┘
+2023-03-06T19:00:51.964778559Z qiskit.transpiler.passes.basis.basis_translator - DEBUG u2/1 => [Parameter(phi), Parameter(lam)]
+2023-03-06T19:00:51.964778559Z global phase: 7π/4
+2023-03-06T19:00:51.964778559Z    ┌───────────────┐┌────┐┌───────────────┐
+2023-03-06T19:00:51.964778559Z q: ┤ U1(lam - π/2) ├┤ √X ├┤ U1(phi + π/2) ├
+2023-03-06T19:00:51.964778559Z    └───────────────┘└────┘└───────────────┘
+2023-03-06T19:00:51.965406898Z qiskit.transpiler.passes.basis.basis_translator - DEBUG dcx/2 => []
+2023-03-06T19:00:51.965406898Z           ┌───┐
+2023-03-06T19:00:51.965406898Z q_0: ──■──┤ X ├
+2023-03-06T19:00:51.965406898Z      ┌─┴─┐└─┬─┘
+2023-03-06T19:00:51.965406898Z q_1: ┤ X ├──■──
+2023-03-06T19:00:51.965406898Z      └───┘     
+2023-03-06T19:00:51.965728055Z qiskit.transpiler.passes.basis.basis_translator - DEBUG sdg/1 => []
+2023-03-06T19:00:51.965728055Z    ┌──────────┐
+2023-03-06T19:00:51.965728055Z q: ┤ U1(-π/2) ├
+2023-03-06T19:00:51.965728055Z    └──────────┘
+2023-03-06T19:00:51.966004468Z qiskit.transpiler.passes.basis.basis_translator - DEBUG t/1 => []
+2023-03-06T19:00:51.966004468Z    ┌─────────┐
+2023-03-06T19:00:51.966004468Z q: ┤ U1(π/4) ├
+2023-03-06T19:00:51.966004468Z    └─────────┘
+2023-03-06T19:00:51.966292090Z qiskit.transpiler.passes.basis.basis_translator - DEBUG tdg/1 => []
+2023-03-06T19:00:51.966292090Z    ┌──────────┐
+2023-03-06T19:00:51.966292090Z q: ┤ U1(-π/4) ├
+2023-03-06T19:00:51.966292090Z    └──────────┘
+2023-03-06T19:00:51.966586747Z qiskit.transpiler.passes.basis.basis_translator - DEBUG p/1 => [Parameter(theta)]
+2023-03-06T19:00:51.966586747Z    ┌───────────┐
+2023-03-06T19:00:51.966586747Z q: ┤ U1(theta) ├
+2023-03-06T19:00:51.966586747Z    └───────────┘
+2023-03-06T19:00:51.966884096Z qiskit.transpiler.passes.basis.basis_translator - DEBUG s/1 => []
+2023-03-06T19:00:51.966884096Z    ┌─────────┐
+2023-03-06T19:00:51.966884096Z q: ┤ U1(π/2) ├
+2023-03-06T19:00:51.966884096Z    └─────────┘
+2023-03-06T19:00:51.967150967Z qiskit.transpiler.passes.basis.basis_translator - DEBUG z/1 => []
+2023-03-06T19:00:51.967150967Z    ┌───────┐
+2023-03-06T19:00:51.967150967Z q: ┤ U1(π) ├
+2023-03-06T19:00:51.967150967Z    └───────┘
+2023-03-06T19:00:51.967718291Z qiskit.transpiler.passes.basis.basis_translator - DEBUG u1/1 => [Parameter(theta)]
+2023-03-06T19:00:51.967718291Z global phase: theta/2
+2023-03-06T19:00:51.967718291Z    ┌───────────┐
+2023-03-06T19:00:51.967718291Z q: ┤ Rz(theta) ├
+2023-03-06T19:00:51.967718291Z    └───────────┘
+2023-03-06T19:00:51.967990114Z qiskit.transpiler.passes.basis.basis_translator - INFO Basis translation path search completed in 0.477s.
+2023-03-06T19:00:51.968551110Z qiskit.transpiler.passes.basis.basis_translator - DEBUG Composing transform step: h/1 [] =>
+2023-03-06T19:00:51.968551110Z    ┌─────────┐
+2023-03-06T19:00:51.968551110Z q: ┤ U2(0,π) ├
+2023-03-06T19:00:51.968551110Z    └─────────┘
+2023-03-06T19:00:51.969060016Z qiskit.transpiler.passes.basis.basis_translator - DEBUG Updating transform for mapped instr ('h', 1) h, [] from 
+2023-03-06T19:00:51.969060016Z     ┌───┐
+2023-03-06T19:00:51.969060016Z q2: ┤ h ├
+2023-03-06T19:00:51.969060016Z     └───┘
+2023-03-06T19:00:51.969662518Z qiskit.transpiler.passes.basis.basis_translator - DEBUG Updated transform for mapped instr ('h', 1) h, [] to
+2023-03-06T19:00:51.969662518Z     ┌─────────┐
+2023-03-06T19:00:51.969662518Z q2: ┤ U2(0,π) ├
+2023-03-06T19:00:51.969662518Z     └─────────┘
+2023-03-06T19:00:51.970330596Z qiskit.transpiler.passes.basis.basis_translator - DEBUG Composing transform step: swap/2 [] =>
+2023-03-06T19:00:51.970330596Z           ┌───┐     
+2023-03-06T19:00:51.970330596Z q_0: ──■──┤ X ├──■──
+2023-03-06T19:00:51.970330596Z      ┌─┴─┐└─┬─┘┌─┴─┐
+2023-03-06T19:00:51.970330596Z q_1: ┤ X ├──■──┤ X ├
+2023-03-06T19:00:51.970330596Z      └───┘     └───┘
+2023-03-06T19:00:51.970958259Z qiskit.transpiler.passes.basis.basis_translator - DEBUG Composing transform step: cy/2 [] =>
+2023-03-06T19:00:51.970958259Z                       
+2023-03-06T19:00:51.970958259Z q_0: ─────────■───────
+2023-03-06T19:00:51.970958259Z      ┌─────┐┌─┴─┐┌───┐
+2023-03-06T19:00:51.970958259Z q_1: ┤ Sdg ├┤ X ├┤ S ├
+2023-03-06T19:00:51.970958259Z      └─────┘└───┘└───┘
+2023-03-06T19:00:51.971645480Z qiskit.transpiler.passes.basis.basis_translator - DEBUG Composing transform step: rzz/2 [Parameter(theta)] =>
+2023-03-06T19:00:51.971645480Z                             
+2023-03-06T19:00:51.971645480Z q_0: ──■─────────────────■──
+2023-03-06T19:00:51.971645480Z      ┌─┴─┐┌───────────┐┌─┴─┐
+2023-03-06T19:00:51.971645480Z q_1: ┤ X ├┤ Rz(theta) ├┤ X ├
+2023-03-06T19:00:51.971645480Z      └───┘└───────────┘└───┘
+2023-03-06T19:00:51.972792320Z qiskit.transpiler.passes.basis.basis_translator - DEBUG Composing transform step: u2/1 [Parameter(phi), Parameter(lam)] =>
+2023-03-06T19:00:51.972792320Z global phase: 7π/4
+2023-03-06T19:00:51.972792320Z    ┌───────────────┐┌────┐┌───────────────┐
+2023-03-06T19:00:51.972792320Z q: ┤ U1(lam - π/2) ├┤ √X ├┤ U1(phi + π/2) ├
+2023-03-06T19:00:51.972792320Z    └───────────────┘└────┘└───────────────┘
+2023-03-06T19:00:51.973279447Z qiskit.transpiler.passes.basis.basis_translator - DEBUG Updating transform for mapped instr ('h', 1) h, [] from 
+2023-03-06T19:00:51.973279447Z     ┌─────────┐
+2023-03-06T19:00:51.973279447Z q2: ┤ U2(0,π) ├
+2023-03-06T19:00:51.973279447Z     └─────────┘
+2023-03-06T19:00:51.974795914Z qiskit.transpiler.passes.basis.basis_translator - DEBUG Updated transform for mapped instr ('h', 1) h, [] to
+2023-03-06T19:00:51.974795914Z global phase: 7π/4
+2023-03-06T19:00:51.974795914Z     ┌─────────┐┌────┐┌─────────┐
+2023-03-06T19:00:51.974795914Z q2: ┤ U1(π/2) ├┤ √X ├┤ U1(π/2) ├
+2023-03-06T19:00:51.974795914Z     └─────────┘└────┘└─────────┘
+2023-03-06T19:00:51.975450000Z qiskit.transpiler.passes.basis.basis_translator - DEBUG Composing transform step: dcx/2 [] =>
+2023-03-06T19:00:51.975450000Z           ┌───┐
+2023-03-06T19:00:51.975450000Z q_0: ──■──┤ X ├
+2023-03-06T19:00:51.975450000Z      ┌─┴─┐└─┬─┘
+2023-03-06T19:00:51.975450000Z q_1: ┤ X ├──■──
+2023-03-06T19:00:51.975450000Z      └───┘     
+2023-03-06T19:00:51.975772789Z qiskit.transpiler.passes.basis.basis_translator - DEBUG Composing transform step: sdg/1 [] =>
+2023-03-06T19:00:51.975772789Z    ┌──────────┐
+2023-03-06T19:00:51.975772789Z q: ┤ U1(-π/2) ├
+2023-03-06T19:00:51.975772789Z    └──────────┘
+2023-03-06T19:00:51.976064632Z qiskit.transpiler.passes.basis.basis_translator - DEBUG Composing transform step: t/1 [] =>
+2023-03-06T19:00:51.976064632Z    ┌─────────┐
+2023-03-06T19:00:51.976064632Z q: ┤ U1(π/4) ├
+2023-03-06T19:00:51.976064632Z    └─────────┘
+2023-03-06T19:00:51.976346835Z qiskit.transpiler.passes.basis.basis_translator - DEBUG Composing transform step: tdg/1 [] =>
+2023-03-06T19:00:51.976346835Z    ┌──────────┐
+2023-03-06T19:00:51.976346835Z q: ┤ U1(-π/4) ├
+2023-03-06T19:00:51.976346835Z    └──────────┘
+2023-03-06T19:00:51.976663221Z qiskit.transpiler.passes.basis.basis_translator - DEBUG Composing transform step: p/1 [Parameter(theta)] =>
+2023-03-06T19:00:51.976663221Z    ┌───────────┐
+2023-03-06T19:00:51.976663221Z q: ┤ U1(theta) ├
+2023-03-06T19:00:51.976663221Z    └───────────┘
+2023-03-06T19:00:51.976956430Z qiskit.transpiler.passes.basis.basis_translator - DEBUG Composing transform step: s/1 [] =>
+2023-03-06T19:00:51.976956430Z    ┌─────────┐
+2023-03-06T19:00:51.976956430Z q: ┤ U1(π/2) ├
+2023-03-06T19:00:51.976956430Z    └─────────┘
+2023-03-06T19:00:51.977232919Z qiskit.transpiler.passes.basis.basis_translator - DEBUG Composing transform step: z/1 [] =>
+2023-03-06T19:00:51.977232919Z    ┌───────┐
+2023-03-06T19:00:51.977232919Z q: ┤ U1(π) ├
+2023-03-06T19:00:51.977232919Z    └───────┘
+2023-03-06T19:00:51.977771736Z qiskit.transpiler.passes.basis.basis_translator - DEBUG Composing transform step: u1/1 [Parameter(theta)] =>
+2023-03-06T19:00:51.977771736Z global phase: theta/2
+2023-03-06T19:00:51.977771736Z    ┌───────────┐
+2023-03-06T19:00:51.977771736Z q: ┤ Rz(theta) ├
+2023-03-06T19:00:51.977771736Z    └───────────┘
+2023-03-06T19:00:51.978823150Z qiskit.transpiler.passes.basis.basis_translator - DEBUG Updating transform for mapped instr ('h', 1) h, [] from 
+2023-03-06T19:00:51.978823150Z global phase: 7π/4
+2023-03-06T19:00:51.978823150Z     ┌─────────┐┌────┐┌─────────┐
+2023-03-06T19:00:51.978823150Z q2: ┤ U1(π/2) ├┤ √X ├┤ U1(π/2) ├
+2023-03-06T19:00:51.978823150Z     └─────────┘└────┘└─────────┘
+2023-03-06T19:00:51.980209456Z qiskit.transpiler.passes.basis.basis_translator - DEBUG Updated transform for mapped instr ('h', 1) h, [] to
+2023-03-06T19:00:51.980209456Z global phase: π/4
+2023-03-06T19:00:51.980209456Z     ┌─────────┐┌────┐┌─────────┐
+2023-03-06T19:00:51.980209456Z q2: ┤ Rz(π/2) ├┤ √X ├┤ Rz(π/2) ├
+2023-03-06T19:00:51.980209456Z     └─────────┘└────┘└─────────┘
+2023-03-06T19:00:51.980266187Z qiskit.transpiler.passes.basis.basis_translator - INFO Basis translation paths composed in 0.012s.
+2023-03-06T19:00:51.980396296Z qiskit.transpiler.passes.basis.basis_translator - INFO Basis translation instructions replaced in 0.000s.
+2023-03-06T19:00:51.980441424Z qiskit.transpiler.runningpassmanager - INFO Pass: BasisTranslator - 490.28277 (ms)
+2023-03-06T19:00:51.980510976Z qiskit.transpiler.runningpassmanager - INFO Pass: RemoveResetInZeroState - 0.01264 (ms)
+2023-03-06T19:00:51.980596659Z qiskit.transpiler.runningpassmanager - INFO Pass: Depth - 0.04792 (ms)
+2023-03-06T19:00:51.980648774Z qiskit.transpiler.runningpassmanager - INFO Pass: FixedPoint - 0.02122 (ms)
+2023-03-06T19:00:51.980696569Z qiskit.transpiler.runningpassmanager - INFO Pass: Size - 0.01693 (ms)
+2023-03-06T19:00:51.980722023Z qiskit.transpiler.runningpassmanager - INFO Pass: FixedPoint - 0.00477 (ms)
+2023-03-06T19:00:51.981796507Z qiskit.transpiler.runningpassmanager - INFO Pass: Optimize1qGatesDecomposition - 0.99111 (ms)
+2023-03-06T19:00:51.981883772Z qiskit.transpiler.runningpassmanager - INFO Pass: CXCancellation - 0.04077 (ms)
+2023-03-06T19:00:51.981954232Z qiskit.transpiler.runningpassmanager - INFO Pass: GatesInBasis - 0.03314 (ms)
+2023-03-06T19:00:51.982028831Z qiskit.transpiler.runningpassmanager - INFO Pass: Depth - 0.02718 (ms)
+2023-03-06T19:00:51.982062007Z qiskit.transpiler.runningpassmanager - INFO Pass: FixedPoint - 0.00739 (ms)
+2023-03-06T19:00:51.982100010Z qiskit.transpiler.runningpassmanager - INFO Pass: Size - 0.01431 (ms)
+2023-03-06T19:00:51.982127651Z qiskit.transpiler.runningpassmanager - INFO Pass: FixedPoint - 0.00405 (ms)
+2023-03-06T19:00:51.982179882Z qiskit.transpiler.runningpassmanager - INFO Pass: ContainsInstruction - 0.01812 (ms)
+2023-03-06T19:00:51.982232873Z qiskit.transpiler.runningpassmanager - INFO Pass: InstructionDurationCheck - 0.01788 (ms)
+2023-03-06T19:00:51.982270118Z qiskit.transpiler.runningpassmanager - INFO Pass: ValidatePulseGates - 0.00644 (ms)
+2023-03-06T19:00:51.982540025Z qiskit.compiler.transpiler - INFO Total Transpile Time - 560.31013 (ms)
+2023-03-06T19:00:51.986019005Z urllib3.connectionpool - DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2023-03-06T19:00:51.987192741Z urllib3.connectionpool - DEBUG http://127.0.0.1:8080 "GET /job/transpiled_circuits/upload_url HTTP/1.1" 200 454
+2023-03-06T19:00:51.989208101Z urllib3.connectionpool - DEBUG Starting new HTTPS connection (1): s3.us-east.cloud-object-storage.appdomain.cloud:443
+2023-03-06T19:00:52.075879683Z urllib3.connectionpool - DEBUG https://s3.us-east.cloud-object-storage.appdomain.cloud:443 "PUT /qcm-us-east-qiskit-runtime-objects-production/transpiled-circuits%3Acg2rcl2sm4lk6m6t972g?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=cd7f3dfbcdb5451bbfe4b0e88203bc94%2F20230306%2Fglobal%2Fs3%2Faws4_request&X-Amz-Date=20230306T190051Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=de5c3d342989b797ae4ebd1e5e8f9a4b8fdf53595c8b248d10346fc0b7d3f62f HTTP/1.1" 200 0
+2023-03-06T19:00:52.077042969Z qiskit.compiler.assembler - INFO Total Assembly Time - 0.21601 (ms)
+2023-03-06T19:00:52.078306485Z programruntime.runtime_backend - INFO Created runtime job and submitting job using client <class 'programruntime.clients.jobbuilderclient.JobBuilderBackendClient'>.
+2023-03-06T19:00:52.078370327Z programruntime.runtime_backend - INFO Starting job submit process.
+2023-03-06T19:00:52.078421247Z programruntime.runtime_backend - INFO Created task for job submission.
+2023-03-06T19:00:52.078814609Z programruntime.runtime_backend - DEBUG Starting submit_job span.
+2023-03-06T19:00:52.079374672Z programruntime.clients.jobbuilderclient - DEBUG Submitting job for job compilation.
+2023-03-06T19:00:52.079453790Z aiohttp_retry - DEBUG Attempt 1 out of 7
+2023-03-06T19:00:52.084705073Z aiohttp_retry - DEBUG Attempt 1 out of 7
+2023-03-06T19:00:52.086956525Z programruntime.runtime_backend - DEBUG Compilation status of job circuit-runner_cg2rcl2sm4lk6m6t972g_b151_0 is building.
+2023-03-06T19:00:53.088262783Z aiohttp_retry - DEBUG Attempt 1 out of 7
+2023-03-06T19:00:53.091954194Z programruntime.runtime_backend - DEBUG Compilation status of job circuit-runner_cg2rcl2sm4lk6m6t972g_b151_0 is done.
+2023-03-06T19:00:53.092210471Z aiohttp_retry - DEBUG Attempt 1 out of 7
+2023-03-06T19:01:01.545992834Z programruntime.clients.sidecarclient - DEBUG Job result is in json format, raw result is {'backend_name': 'ibm_perth', 'backend_version': '1.1.43', 'qobj_id': 'c2040326-f846-476d-b8be-b648825cd6d4', 'job_id': 'circuit-runner_cg2rcl2sm4lk6m6t972g_b151_0', 'date': '2023-03-06T19:01:01Z', 'success': True, 'status': 'Successful completion', 'execution_id': '3a7db928-bc51-11ed-857a-b02628ea1e00', 'time_taken': 3.0009452109225094, 'header': {'backend_name': 'ibm_perth', 'backend_version': '1.1.43'}, 'results': [{'shots': 1024, 'success': True, 'status': 'done', 'seed': None, 'meas_level': 2, 'meas_return': None, 'header': {'clbit_labels': [['c', 0], ['c', 1]], 'creg_sizes': [['c', 2]], 'global_phase': 0.7853981633974483, 'memory_slots': 2, 'metadata': {}, 'n_qubits': 7, 'name': 'circuit-97', 'qreg_sizes': [['q', 7]], 'qubit_labels': [['q', 0], ['q', 1], ['q', 2], ['q', 3], ['q', 4], ['q', 5], ['q', 6]]}, 'data': {'counts': {'0x0': 477, '0x1': 16, '0x2': 48, '0x3': 483}, 'snapshots': None, 'memory': None, 'statevector': None, 'unitary': None}}], 'error': None}.
+2023-03-06T19:01:01.546257061Z aiohttp_retry - DEBUG Attempt 1 out of 7
+2023-03-06T19:01:01.561908295Z programruntime.runtime_backend - INFO Setting runtime job id to circuit-runner_cg2rcl2sm4lk6m6t972g_b151_0.
+2023-03-06T19:01:01.562040326Z programruntime.runtime_backend - INFO Job circuit-runner_cg2rcl2sm4lk6m6t972g_b151_0 completed.
+2023-03-06T19:01:01.565031616Z urllib3.connectionpool - DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2023-03-06T19:01:01.596457770Z urllib3.connectionpool - DEBUG http://127.0.0.1:8080 "POST /results/job/final HTTP/1.1" 204 0
+2023-03-06T19:01:01.623290149Z urllib3.connectionpool - DEBUG http://127.0.0.1:8080 "POST /results/metrics HTTP/1.1" 204 0
+2023-03-06T19:01:01.627820678Z jaeger_tracing - INFO Span publisher exited
+2023-03-06T19:01:01.628135548Z webserver-starter - DEBUG Writing job status to termination marker file: '{"status": "Completed"}'
+2023-03-06T19:01:01.628333087Z /pod-data/ CLOSE_WRITE,CLOSE terminated
+2023-03-06T19:01:01.629239122Z Termination marker file found. Kill process (7).
+2023-03-06T19:01:01.653081837Z /bin/bash: line 3:     7 Killed                  python -m uvicorn server.main:app --port 8081
+2023-03-06T19:01:01.653381472Z Termination signal received, exited.
